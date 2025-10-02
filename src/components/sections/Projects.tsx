@@ -1,3 +1,5 @@
+'use client'
+
 import { Github, Cpu, Brain, Terminal } from 'lucide-react'
 
 export function Projects() {

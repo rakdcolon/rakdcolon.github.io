@@ -1,3 +1,5 @@
+'use client'
+
 import { Mail, Github, Linkedin, MapPin, Phone } from 'lucide-react'
 
 export function Contact() {

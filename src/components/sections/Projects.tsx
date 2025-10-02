@@ -42,7 +42,7 @@ export function Projects() {
     },
     {
       title: 'MineOps',
-      description: 'Upgraded a Minecraft Server with Docker and Kubernetes containerization, deployment, automation, and resource management. Integrated a Discord bot via Discord API and webhooks, allowing users to manage the server directly from Discord. Automated server updates and backups using Python Scripting and GitHub Actions, ensuring uptime and version control. Managed project collaboration using GitHub Projects, Integration Tests, Pull Requests, and GitHub Actions for CI/CD.',
+      description: 'Containerized Minecraft server using Docker and Kubernetes with automated deployment and resource management. Built Discord bot for server management via API integration and implemented CI/CD pipeline with GitHub Actions for automated updates and backups.',
       technologies: ['Docker', 'Kubernetes', 'Python', 'GitHub Actions', 'Discord API', 'CI/CD'],
       github: 'https://github.com/rakdcolon/Minecraft-Server',
       icon: <Terminal className="h-8 w-8" />,

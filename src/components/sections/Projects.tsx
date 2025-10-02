@@ -61,7 +61,10 @@ export function Projects() {
             >
               <div className="flex items-start justify-between mb-6">
                 <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-accent/10 rounded-xl text-accent group-hover:bg-accent group-hover:text-white transition-all duration-300">
+                  <div
+                    className="p-3 rounded-xl transition-all duration-300"
+                    style={{backgroundColor: 'rgba(0, 122, 255, 0.1)', color: '#007aff'}}
+                  >
                     {project.icon}
                   </div>
                   <div>
@@ -120,7 +123,16 @@ export function Projects() {
             href="https://github.com/rakdcolon"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-4 bg-accent text-white rounded-full font-medium hover:bg-accent-hover transition-all duration-300 shadow-elegant hover:scale-105"
+            className="inline-flex items-center px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover:scale-105"
+            style={{backgroundColor: '#007aff', color: '#ffffff'}}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = '#0056cc';
+              e.currentTarget.style.color = '#ffffff';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = '#007aff';
+              e.currentTarget.style.color = '#ffffff';
+            }}
           >
             <Github className="h-5 w-5 mr-2" />
             View More on GitHub

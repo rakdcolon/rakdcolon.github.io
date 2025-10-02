@@ -132,7 +132,16 @@ export function Contact() {
 
               <a
                 href="mailto:rohan.karamel@gmail.com"
-                className="block w-full text-center px-8 py-4 bg-accent text-white rounded-full font-medium hover:bg-accent-hover transition-all duration-300 shadow-elegant hover:scale-105"
+                className="block w-full text-center px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover:scale-105"
+                style={{backgroundColor: '#007aff', color: '#ffffff'}}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = '#0056cc';
+                  e.currentTarget.style.color = '#ffffff';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = '#007aff';
+                  e.currentTarget.style.color = '#ffffff';
+                }}
               >
                 Send Me an Email
               </a>

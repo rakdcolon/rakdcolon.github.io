@@ -18,11 +18,8 @@ export function Hero() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 tracking-tight">
-            Rohan{' '}
-            <span className="text-gradient bg-gradient-to-r from-accent to-accent-hover bg-clip-text text-transparent">
-              Karamel
-            </span>
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 tracking-tight" style={{color: '#1d1d1f'}}>
+            Rohan Karamel
           </h1>
 
           <p className="text-xl sm:text-2xl lg:text-3xl text-secondary mb-8 font-light">
@@ -89,7 +86,16 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#about"
-              className="px-8 py-4 bg-accent text-white rounded-full font-medium hover:bg-accent-hover transition-all duration-300 shadow-elegant hover:scale-105"
+              className="px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover:scale-105"
+              style={{backgroundColor: '#007aff', color: '#ffffff'}}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#0056cc';
+                e.currentTarget.style.color = '#ffffff';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = '#007aff';
+                e.currentTarget.style.color = '#ffffff';
+              }}
             >
               Learn More About Me
             </a>

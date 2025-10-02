@@ -110,7 +110,7 @@ export function Contact() {
           {/* Call to Action */}
           <div className="glass rounded-2xl p-8 shadow-elegant">
             <h3 className="text-2xl font-semibold text-foreground mb-6">
-              Let's Work Together
+              Let&apos;s Work Together
             </h3>
             <p className="text-foreground/80 leading-relaxed mb-8">
               Whether you&apos;re interested in my research work, looking for a machine learning engineer,

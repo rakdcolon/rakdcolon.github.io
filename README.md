@@ -2,37 +2,37 @@
 
 A minimal, Apple-inspired portfolio website showcasing my work as a Machine Learning Engineer and AI Researcher. Built with Next.js 15, TypeScript, and Tailwind CSS.
 
-## ✨ Features
+## Features
 
-- **Clean, minimal design** inspired by Apple's design philosophy
-- **Responsive layout** that works on all devices
-- **Smooth animations** and transitions
-- **Apple-style typography** using system fonts
-- **GitHub Pages deployment** ready
-- **SEO optimized** with proper meta tags
+- Clean, minimal design inspired by Apple's design philosophy
+- Responsive layout that works on all devices
+- Smooth animations and transitions
+- Apple-style typography using system fonts
+- GitHub Pages deployment ready
+- SEO optimized with proper meta tags
 
-## 🚀 Quick Start
+## Quick Start
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/rakdcolon/portfolio.git
    cd portfolio
    ```
 
-2. **Install dependencies**
+2. Install dependencies
    ```bash
    npm install
    ```
 
-3. **Run the development server**
+3. Run the development server
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
+4. Open your browser
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -51,34 +51,34 @@ src/
 │       └── Navigation.tsx  # Navigation component
 ```
 
-## 🎨 Design System
+## Design System
 
 The portfolio uses a minimal, Apple-inspired design system with:
 
-- **Colors**: Primarily black and white with blue accents (#007aff)
-- **Typography**: Apple system fonts (-apple-system, BlinkMacSystemFont)
-- **Spacing**: Consistent spacing scale
-- **Animations**: Subtle, purposeful animations
-- **Glass effects**: Modern backdrop-blur effects
+- Colors: Primarily black and white with blue accents (#007aff)
+- Typography: Apple system fonts (-apple-system, BlinkMacSystemFont)
+- Spacing: Consistent spacing scale
+- Animations: Subtle, purposeful animations
+- Glass effects: Modern backdrop-blur effects
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- **Framework**: Next.js 15 with App Router
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **Animations**: Framer Motion
-- **Deployment**: GitHub Pages
+- Framework: Next.js 15 with App Router
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Icons: Lucide React
+- Animations: Framer Motion
+- Deployment: GitHub Pages
 
-## 📱 Sections
+## Sections
 
-1. **Hero** - Introduction with name, title, and social links
-2. **About** - Background, education, and technical skills
-3. **Experience** - Work experience at Rutgers and GE Aerospace
-4. **Projects** - Featured projects including GPU Mandelbrot Renderer, JavaLM, and MyOperatingSystem
-5. **Contact** - Contact information and social media links
+1. Hero - Introduction with name, title, and social links
+2. About - Background, education, and technical skills
+3. Experience - Work experience at Rutgers and GE Aerospace
+4. Projects - Featured projects including GPU Mandelbrot Renderer, JavaLM, and MyOperatingSystem
+5. Contact - Contact information and social media links
 
-## 🚀 Deployment
+## Deployment
 
 The site is configured for automatic deployment to GitHub Pages using GitHub Actions.
 
@@ -91,7 +91,7 @@ The site is configured for automatic deployment to GitHub Pages using GitHub Act
 
 The site will be available at `https://rakdcolon.github.io`
 
-## 📝 Customization
+## Customization
 
 To customize for your own portfolio:
 
@@ -101,10 +101,10 @@ To customize for your own portfolio:
 4. Modify contact information in `Contact.tsx`
 5. Update metadata in `layout.tsx`
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork this project and customize it for your own portfolio. If you make improvements, pull requests are welcome!
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).

@@ -1,6 +1,6 @@
 'use client'
 
-import { Github, Cpu, Brain, Terminal } from 'lucide-react'
+import { Github, Cpu, Brain, Terminal, Cloud } from 'lucide-react'
 
 export function Projects() {
   const projects = [
@@ -45,7 +45,7 @@ export function Projects() {
       description: 'Containerized Minecraft server using Docker and Kubernetes with automated deployment and resource management. Built Discord bot for server management via API integration and implemented CI/CD pipeline with GitHub Actions for automated updates and backups.',
       technologies: ['Docker', 'Kubernetes', 'Python', 'GitHub Actions', 'Discord API', 'CI/CD'],
       github: 'https://github.com/rakdcolon/Minecraft-Server',
-      icon: <Terminal className="h-8 w-8" />,
+      icon: <Cloud className="h-8 w-8" />,
       highlights: [
         'Docker & Kubernetes containerization',
         'Discord bot integration for server management',

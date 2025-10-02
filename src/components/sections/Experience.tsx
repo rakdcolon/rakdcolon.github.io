@@ -44,7 +44,7 @@ export function Experience() {
   ]
 
   return (
-    <section id="experience" className="py-20 bg-border/20">
+    <section id="experience" className="py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">

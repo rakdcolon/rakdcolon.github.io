@@ -11,7 +11,7 @@ export function Hero() {
   }, [])
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-background to-border/20">
+    <section className="min-h-screen flex items-center justify-center relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div
           className={`transition-all duration-1000 ${

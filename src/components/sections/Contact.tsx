@@ -94,7 +94,7 @@ export function Contact() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-4 p-4 glass rounded-xl hover:shadow-elegant transition-all duration-300 group"
+                    className="flex items-center space-x-4 p-4 glass-enhanced rounded-xl hover:shadow-elegant transition-all duration-300 group hover-3d cursor-hover"
                   >
                     <div className="p-2 bg-accent/10 rounded-lg text-accent transition-all duration-300">
                       {link.icon}
@@ -110,7 +110,7 @@ export function Contact() {
           </div>
 
           {/* Call to Action */}
-          <div className="glass rounded-2xl p-8 shadow-elegant">
+          <div className="glass-enhanced rounded-2xl p-8 shadow-elegant hover-3d">
             <h3 className="text-2xl font-semibold text-foreground mb-6">
               Let&apos;s Work Together
             </h3>
@@ -131,7 +131,7 @@ export function Contact() {
 
               <a
                 href="mailto:rohan.karamel@gmail.com"
-                className="block w-full text-center px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover:scale-105"
+                className="block w-full text-center px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover-3d cursor-hover"
                 style={{backgroundColor: '#007aff', color: '#ffffff'}}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.backgroundColor = '#0056cc';

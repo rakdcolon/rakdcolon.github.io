@@ -1,0 +1,85 @@
+'use client'
+
+import { useEffect, useState } from 'react'
+import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react'
+
+export function Hero() {
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    setIsVisible(true)
+  }, [])
+
+  return (
+    <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-background to-border/20">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div
+          className={`transition-all duration-1000 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+          }`}
+        >
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 tracking-tight">
+            Rohan{' '}
+            <span className="text-gradient bg-gradient-to-r from-accent to-accent-hover bg-clip-text text-transparent">
+              Karamel
+            </span>
+          </h1>
+
+          <p className="text-xl sm:text-2xl lg:text-3xl text-secondary mb-8 font-light">
+            Machine Learning Engineer & AI Researcher
+          </p>
+
+          <p className="text-lg text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
+            Research Fellow at Rutgers AI & DS Collaboratory, passionate about deep learning,
+            neuroscience modeling, and building intelligent systems that push the boundaries of what's possible.
+          </p>
+
+          <div className="flex justify-center space-x-6 mb-16">
+            <a
+              href="https://github.com/rakdcolon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-foreground text-background hover:bg-accent transition-all duration-300 shadow-elegant hover:scale-110"
+            >
+              <Github className="h-6 w-6" />
+            </a>
+            <a
+              href="https://linkedin.com/in/rohankaramel/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-foreground text-background hover:bg-accent transition-all duration-300 shadow-elegant hover:scale-110"
+            >
+              <Linkedin className="h-6 w-6" />
+            </a>
+            <a
+              href="mailto:rohan.karamel@gmail.com"
+              className="p-3 rounded-full bg-foreground text-background hover:bg-accent transition-all duration-300 shadow-elegant hover:scale-110"
+            >
+              <Mail className="h-6 w-6" />
+            </a>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href="#about"
+              className="px-8 py-4 bg-accent text-white rounded-full font-medium hover:bg-accent-hover transition-all duration-300 shadow-elegant hover:scale-105"
+            >
+              Learn More About Me
+            </a>
+            <a
+              href="#projects"
+              className="px-8 py-4 border-2 border-foreground text-foreground rounded-full font-medium hover:bg-foreground hover:text-background transition-all duration-300"
+            >
+              View My Work
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <ArrowDown className="h-6 w-6 text-secondary" />
+      </div>
+    </section>
+  )
+}

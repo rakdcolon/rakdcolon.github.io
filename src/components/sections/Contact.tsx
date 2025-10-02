@@ -46,7 +46,7 @@ export function Contact() {
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
           <p className="text-lg text-secondary max-w-2xl mx-auto">
-            I'm always interested in discussing new opportunities, collaborations, or just connecting with fellow technologists
+            I&apos;m always interested in discussing new opportunities, collaborations, or just connecting with fellow technologists
           </p>
         </div>
 
@@ -113,8 +113,8 @@ export function Contact() {
               Let's Work Together
             </h3>
             <p className="text-foreground/80 leading-relaxed mb-8">
-              Whether you're interested in my research work, looking for a machine learning engineer,
-              or want to collaborate on an exciting project, I'd love to hear from you. I'm particularly
+              Whether you&apos;re interested in my research work, looking for a machine learning engineer,
+              or want to collaborate on an exciting project, I&apos;d love to hear from you. I&apos;m particularly
               interested in opportunities that involve AI research, neuroscience applications, or
               innovative software engineering challenges.
             </p>

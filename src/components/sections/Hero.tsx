@@ -31,7 +31,7 @@ export function Hero() {
 
           <p className="text-lg text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
             Research Fellow at Rutgers AI & DS Collaboratory, passionate about deep learning,
-            neuroscience modeling, and building intelligent systems that push the boundaries of what's possible.
+            neuroscience modeling, and building intelligent systems that push the boundaries of what&apos;s possible.
           </p>
 
           <div className="flex justify-center space-x-6 mb-16">

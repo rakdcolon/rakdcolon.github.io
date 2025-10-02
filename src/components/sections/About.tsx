@@ -12,7 +12,7 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-foreground/80 leading-relaxed">
-              I'm a Computer Science and Mathematics student at Rutgers University with a passion for
+              I&apos;m a Computer Science and Mathematics student at Rutgers University with a passion for
               artificial intelligence and its applications in solving complex real-world problems.
               Currently working as a Research Fellow at the Rutgers AI & Data Science Collaboratory,
               I focus on developing predictive models for neuron deformation under injury conditions.
@@ -21,7 +21,7 @@ export function About() {
             <p className="text-lg text-foreground/80 leading-relaxed">
               My experience spans from machine learning engineering at General Electric Aerospace,
               where I optimized flight scheduling algorithms, to building transformer architectures
-              from scratch in Java. I'm particularly interested in the intersection of neuroscience,
+              from scratch in Java. I&apos;m particularly interested in the intersection of neuroscience,
               AI, and high-performance computing.
             </p>
 

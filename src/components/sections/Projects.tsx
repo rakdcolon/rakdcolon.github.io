@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Cpu, Brain, Terminal } from 'lucide-react'
+import { Github, Cpu, Brain, Terminal } from 'lucide-react'
 
 export function Projects() {
   const projects = [

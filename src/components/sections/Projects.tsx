@@ -75,7 +75,7 @@ export function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 bg-foreground text-background rounded-full hover:bg-accent transition-all duration-300 hover:scale-110"
+                    className="p-2 bg-foreground text-white rounded-full hover:bg-accent hover:text-white transition-all duration-300 hover:scale-110"
                   >
                     <Github className="h-5 w-5" />
                   </a>

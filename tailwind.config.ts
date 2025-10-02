@@ -17,7 +17,7 @@ const config: Config = {
         border: "var(--color-border)",
       },
       fontFamily: {
-        sans: "var(--font-sans)",
+        sans: ["var(--font-inter)", "var(--font-sans)"],
         mono: "var(--font-mono)",
       },
     },

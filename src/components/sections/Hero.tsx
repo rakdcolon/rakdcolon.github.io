@@ -39,7 +39,7 @@ export function Hero() {
               href="https://github.com/rakdcolon"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-foreground text-background hover:bg-accent transition-all duration-300 shadow-elegant hover:scale-110"
+              className="p-3 rounded-full bg-foreground text-white hover:bg-accent hover:text-white transition-all duration-300 shadow-elegant hover:scale-110"
             >
               <Github className="h-6 w-6" />
             </a>
@@ -47,13 +47,13 @@ export function Hero() {
               href="https://linkedin.com/in/rohankaramel/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-foreground text-background hover:bg-accent transition-all duration-300 shadow-elegant hover:scale-110"
+              className="p-3 rounded-full bg-foreground text-white hover:bg-accent hover:text-white transition-all duration-300 shadow-elegant hover:scale-110"
             >
               <Linkedin className="h-6 w-6" />
             </a>
             <a
               href="mailto:rohan.karamel@gmail.com"
-              className="p-3 rounded-full bg-foreground text-background hover:bg-accent transition-all duration-300 shadow-elegant hover:scale-110"
+              className="p-3 rounded-full bg-foreground text-white hover:bg-accent hover:text-white transition-all duration-300 shadow-elegant hover:scale-110"
             >
               <Mail className="h-6 w-6" />
             </a>
@@ -68,7 +68,7 @@ export function Hero() {
             </a>
             <a
               href="#projects"
-              className="px-8 py-4 border-2 border-foreground text-foreground rounded-full font-medium hover:bg-foreground hover:text-background transition-all duration-300"
+              className="px-8 py-4 border-2 border-foreground text-foreground rounded-full font-medium hover:bg-foreground hover:text-white transition-all duration-300"
             >
               View My Work
             </a>

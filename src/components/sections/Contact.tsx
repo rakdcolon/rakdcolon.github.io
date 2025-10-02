@@ -19,7 +19,7 @@ export function Contact() {
     {
       icon: <MapPin className="h-6 w-6" />,
       label: 'Location',
-      value: 'New Brunswick, NJ',
+      value: 'Dallas, TX',
       href: '#'
     }
   ]
@@ -48,7 +48,7 @@ export function Contact() {
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
           <p className="text-lg text-secondary max-w-2xl mx-auto">
-            I&apos;m always interested in discussing new opportunities, collaborations, or just connecting with fellow technologists
+            I&apos;m always interested in discussing new opportunities, collaborations, or just connecting with fellow engineers and researchers.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ export function Contact() {
                     rel="noopener noreferrer"
                     className="flex items-center space-x-4 p-4 glass rounded-xl hover:shadow-elegant transition-all duration-300 group"
                   >
-                    <div className="p-2 bg-accent/10 rounded-lg text-accent group-hover:bg-accent group-hover:text-white transition-all duration-300">
+                    <div className="p-2 bg-accent/10 rounded-lg text-accent transition-all duration-300">
                       {link.icon}
                     </div>
                     <div>
@@ -117,8 +117,7 @@ export function Contact() {
             <p className="text-foreground/80 leading-relaxed mb-8">
               Whether you&apos;re interested in my research work, looking for a machine learning engineer,
               or want to collaborate on an exciting project, I&apos;d love to hear from you. I&apos;m particularly
-              interested in opportunities that involve AI research, neuroscience applications, or
-              innovative software engineering challenges.
+              interested in opportunities that involve ML/AI research or innovative software engineering challenges.
             </p>
 
             <div className="space-y-4">
@@ -127,8 +126,6 @@ export function Contact() {
                 <ul className="text-foreground/70 space-y-1">
                   <li>• Full-time opportunities (Post-graduation)</li>
                   <li>• Research collaborations</li>
-                  <li>• Consulting projects</li>
-                  <li>• Speaking engagements</li>
                 </ul>
               </div>
 

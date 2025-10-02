@@ -10,8 +10,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Rohan Karamel | Machine Learning Engineer & Computer Science Student",
-  description: "Portfolio of Rohan Karamel - Research Fellow at Rutgers AI & DS Collaboratory, Machine Learning Engineer, and Computer Science student specializing in AI, deep learning, and software engineering.",
-  keywords: "Rohan Karamel, Machine Learning Engineer, AI Research, Computer Science, Rutgers University, Portfolio",
+  description: "Portfolio of Rohan Karamel - Research Fellow at Rutgers Artificial Intelligence & Data Science Collaboratory, Machine Learning Engineer, and Computer Science student specializing in AI, deep learning, and software engineering.",
+  keywords: "Rohan Karamel, Machine Learning Engineer, Machine Learning Researcher, Computer Science, Rutgers University, Portfolio",
   authors: [{ name: "Rohan Karamel" }],
   creator: "Rohan Karamel",
   openGraph: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://rakdcolon.github.io",
     title: "Rohan Karamel | Machine Learning Engineer & Computer Science Student",
-    description: "Portfolio showcasing AI research, machine learning projects, and software engineering work.",
+    description: "Portfolio showcasing machine learning research, machine learning projects, and software engineering work.",
     siteName: "Rohan Karamel Portfolio",
   },
   twitter: {

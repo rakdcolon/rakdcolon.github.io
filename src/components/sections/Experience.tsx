@@ -6,27 +6,40 @@ export function Experience() {
       title: 'Research Fellow',
       company: 'Rutgers AI and Data Science Collaboratory',
       location: 'New Brunswick, NJ',
-      period: 'May 2025 – Present',
+      period: 'May 2025 - Present',
       description: [
         'Developed predictive models of neuron deformation under injury conditions to better understand traumatic brain injury',
         'Automated large-scale Abaqus simulations in Python to analyze white-matter brain data across thousands of 3D geometries',
         'Trained recurrent neural networks to model behavior from simulation data, enabling characterization of cellular material properties',
         'Co-authoring a paper titled "A Machine Learning-based Modeling of Fractional Viscoelasticity in Brain White Matter" (in preparation)'
       ],
-      technologies: ['Python', 'Abaqus', 'RNNs', 'Deep Learning', 'Scientific Computing']
+      skills: ['Python', 'MATLAB', 'Abaqus', 'RNNs', 'Deep Learning', 'Scientific Computing']
     },
     {
       title: 'Machine Learning Engineer Intern',
       company: 'General Electric Aerospace',
       location: 'Austin, TX',
-      period: 'May 2024 – August 2024',
+      period: 'May 2024 - August 2024',
       description: [
         'Created datasets with classifications of 3,000,000+ historical flight scheduling problems for major airlines using Java and Azure',
         'Cut average solve time by over 50% and reduced solver costs by $4,000/month using an XGBoost classifier to recommend the most historically effective resolution strategy with 90% accuracy',
         'Delivered thousands of real-time operational strategies to air traffic controllers for disruption recovery problems every day',
         'Laid the foundation for ongoing research initiatives that continued beyond my internship, shaping the next phase of the project'
       ],
-      technologies: ['Java', 'Azure', 'XGBoost', 'Machine Learning', 'Data Engineering']
+      skills: ['Java', 'Python', 'Azure', 'XGBoost', 'Machine Learning', 'Data Engineering']
+    },
+    {
+      title: 'Teaching Assistant - Calculus I, II',
+      company: 'Rutgers University - New Brunswick',
+      location: 'Piscataway, NJ',
+      period: 'August 2023 - May 2024',
+      description: [
+        'Led weekly recitation sessions for 100+ students, clarifying complex calculus concepts and problem-solving techniques',
+        'Provided one-on-one tutoring and academic support, resulting in a huge improvements in student grades and passage rates',
+        'Assisted in grading assignments and exams, ensuring fair and consistent evaluation of student performance',
+        'Collaborated with professors to develop supplementary materials that enhanced the learning experience'
+      ],
+      skills: ['Communication', 'Tutoring', 'Mathematics', 'Leadership', 'Collaboration']
     }
   ]
 
@@ -80,9 +93,9 @@ export function Experience() {
               </div>
 
               <div>
-                <h4 className="text-lg font-semibold text-foreground mb-3">Technologies Used</h4>
+                <h4 className="text-lg font-semibold text-foreground mb-3">Skills Used</h4>
                 <div className="flex flex-wrap gap-2">
-                  {exp.technologies.map((tech, idx) => (
+                  {exp.skills.map((tech, idx) => (
                     <span
                       key={idx}
                       className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium border border-accent/20"

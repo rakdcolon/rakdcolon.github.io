@@ -23,11 +23,11 @@ export function Hero() {
           </h1>
 
           <p className="text-xl sm:text-2xl lg:text-3xl text-secondary mb-8 font-light">
-            Machine Learning Engineer & AI Researcher
+            Machine Learning Engineer & Researcher
           </p>
 
           <p className="text-lg text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Research Fellow at Rutgers AI & DS Collaboratory, passionate about deep learning,
+            Research Fellow at Rutgers Artifical Intelligence & Data Science Collaboratory, passionate about deep learning,
             neuroscience modeling, and building intelligent systems that push the boundaries of what&apos;s possible.
           </p>
 

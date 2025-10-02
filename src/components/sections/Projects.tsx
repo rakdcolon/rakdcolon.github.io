@@ -39,6 +39,18 @@ export function Projects() {
         'Multi-threading library implementation',
         'FUSE-based file system'
       ]
+    },
+    {
+      title: 'MineOps',
+      description: 'Upgraded a Minecraft Server with Docker and Kubernetes containerization, deployment, automation, and resource management. Integrated a Discord bot via Discord API and webhooks, allowing users to manage the server directly from Discord. Automated server updates and backups using Python Scripting and GitHub Actions, ensuring uptime and version control. Managed project collaboration using GitHub Projects, Integration Tests, Pull Requests, and GitHub Actions for CI/CD.',
+      technologies: ['Docker', 'Kubernetes', 'Python', 'GitHub Actions', 'Discord API', 'CI/CD'],
+      github: 'https://github.com/rakdcolon/Minecraft-Server',
+      icon: <Terminal className="h-8 w-8" />,
+      highlights: [
+        'Docker & Kubernetes containerization',
+        'Discord bot integration for server management',
+        'Automated updates & backups with GitHub Actions'
+      ]
     }
   ]
 

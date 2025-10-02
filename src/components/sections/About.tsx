@@ -15,7 +15,7 @@ export function About() {
               I&apos;m a Computer Science and Mathematics student at Rutgers University with a passion for
               machine learning and its applications in solving complex real-world problems.
               Currently working as a Research Fellow at the Rutgers Artifical Intelligence & Data Science Collaboratory,
-              I focus on developing predictive models for neuron deformation and Alzheimer's disease.
+              I focus on developing predictive models for neuron deformation and Alzheimer&apos;s disease.
             </p>
 
             <p className="text-lg text-foreground/80 leading-relaxed">

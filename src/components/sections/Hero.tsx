@@ -39,7 +39,16 @@ export function Hero() {
               href="https://github.com/rakdcolon"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-foreground text-white hover:bg-accent hover:text-white transition-all duration-300 shadow-elegant hover:scale-110"
+              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover:scale-110"
+              style={{backgroundColor: '#1d1d1f', color: '#ffffff'}}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#007aff';
+                e.currentTarget.style.color = '#ffffff';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = '#1d1d1f';
+                e.currentTarget.style.color = '#ffffff';
+              }}
             >
               <Github className="h-6 w-6" />
             </a>
@@ -47,13 +56,31 @@ export function Hero() {
               href="https://linkedin.com/in/rohankaramel/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-foreground text-white hover:bg-accent hover:text-white transition-all duration-300 shadow-elegant hover:scale-110"
+              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover:scale-110"
+              style={{backgroundColor: '#1d1d1f', color: '#ffffff'}}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#007aff';
+                e.currentTarget.style.color = '#ffffff';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = '#1d1d1f';
+                e.currentTarget.style.color = '#ffffff';
+              }}
             >
               <Linkedin className="h-6 w-6" />
             </a>
             <a
               href="mailto:rohan.karamel@gmail.com"
-              className="p-3 rounded-full bg-foreground text-white hover:bg-accent hover:text-white transition-all duration-300 shadow-elegant hover:scale-110"
+              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover:scale-110"
+              style={{backgroundColor: '#1d1d1f', color: '#ffffff'}}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#007aff';
+                e.currentTarget.style.color = '#ffffff';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = '#1d1d1f';
+                e.currentTarget.style.color = '#ffffff';
+              }}
             >
               <Mail className="h-6 w-6" />
             </a>
@@ -68,7 +95,16 @@ export function Hero() {
             </a>
             <a
               href="#projects"
-              className="px-8 py-4 border-2 border-foreground text-foreground rounded-full font-medium hover:bg-foreground hover:text-white transition-all duration-300"
+              className="px-8 py-4 rounded-full font-medium transition-all duration-300"
+              style={{border: '2px solid #1d1d1f', color: '#1d1d1f', backgroundColor: 'transparent'}}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#1d1d1f';
+                e.currentTarget.style.color = '#ffffff';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = 'transparent';
+                e.currentTarget.style.color = '#1d1d1f';
+              }}
             >
               View My Work
             </a>

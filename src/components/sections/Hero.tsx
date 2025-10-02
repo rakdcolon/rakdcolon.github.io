@@ -18,7 +18,7 @@ export function Hero() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 tracking-tight" style={{color: '#1d1d1f'}}>
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 tracking-tight text-foreground">
             Rohan Karamel
           </h1>
 
@@ -101,16 +101,7 @@ export function Hero() {
             </a>
             <a
               href="#projects"
-              className="px-8 py-4 rounded-full font-medium transition-all duration-300"
-              style={{border: '2px solid #1d1d1f', color: '#1d1d1f', backgroundColor: 'transparent'}}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#1d1d1f';
-                e.currentTarget.style.color = '#ffffff';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = 'transparent';
-                e.currentTarget.style.color = '#1d1d1f';
-              }}
+              className="px-8 py-4 rounded-full font-medium transition-all duration-300 border-2 border-foreground text-foreground bg-transparent hover:bg-foreground hover:text-background"
             >
               View My Work
             </a>

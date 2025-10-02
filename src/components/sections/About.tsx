@@ -9,7 +9,7 @@ export function About() {
           <div className="w-20 h-1 bg-accent mx-auto"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <p className="text-lg text-foreground/80 leading-relaxed">
               I&apos;m a Computer Science and Mathematics student at Rutgers University with a passion for
@@ -24,14 +24,14 @@ export function About() {
               from scratch in Java. I&apos;m particularly interested in the application of machine learnign to various domains,
               including healthcare and computer vision. I&apos;m always eager to learn and take on new challenges in the field of AI and software engineering.
             </p>
+          </div>
 
-            <div className="grid grid-cols-2 gap-6 mt-8">
+          <div className="space-y-8">
+            <div className="grid grid-cols-1 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">Education</h3>
-                <p className="text-foreground/70">Rutgers University - New Brunswick</p>
-                <p className="text-secondary">Bachelor in Computer Science & Mathematics</p>
-                <p className="text-secondary">GPA: 3.7/4.0</p>
-                <p className="text-secondary">Expected: December 2025</p>
+                <p className="text-foreground/70">Rutgers University - New Brunswick | Bachelor in Computer Science & Mathematics</p>
+                <p className="text-secondary">GPA: 3.7/4.0 | Expected: December 2025</p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">Leadership</h3>
@@ -42,9 +42,7 @@ export function About() {
                 </ul>
               </div>
             </div>
-          </div>
 
-          <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-foreground mb-6">Technical Skills</h3>
 

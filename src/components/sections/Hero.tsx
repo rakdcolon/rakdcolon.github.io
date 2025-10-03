@@ -50,7 +50,7 @@ export function Hero() {
               href="https://github.com/rakdcolon"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover-3d cursor-hover animate-pulse-glow"
+              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover-3d animate-pulse-glow"
               style={{backgroundColor: '#1d1d1f', color: '#ffffff'}}
               onMouseEnter={(e) => {
                 e.currentTarget.style.backgroundColor = '#007aff';
@@ -67,7 +67,7 @@ export function Hero() {
               href="https://linkedin.com/in/rohankaramel/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover-3d cursor-hover animate-pulse-glow"
+              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover-3d animate-pulse-glow"
               style={{backgroundColor: '#1d1d1f', color: '#ffffff'}}
               onMouseEnter={(e) => {
                 e.currentTarget.style.backgroundColor = '#007aff';
@@ -82,7 +82,7 @@ export function Hero() {
             </a>
             <a
               href="mailto:rohan.karamel@gmail.com"
-              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover-3d cursor-hover animate-pulse-glow"
+              className="p-3 rounded-full transition-all duration-300 shadow-elegant hover-3d animate-pulse-glow"
               style={{backgroundColor: '#1d1d1f', color: '#ffffff'}}
               onMouseEnter={(e) => {
                 e.currentTarget.style.backgroundColor = '#007aff';
@@ -100,7 +100,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#about"
-              className="px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover-3d cursor-hover"
+              className="px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover-3d"
               style={{backgroundColor: '#007aff', color: '#ffffff'}}
               onMouseEnter={(e) => {
                 e.currentTarget.style.backgroundColor = '#0056cc';
@@ -115,7 +115,7 @@ export function Hero() {
             </a>
             <a
               href="#projects"
-              className="px-8 py-4 rounded-full font-medium transition-all duration-300 border-2 border-foreground text-foreground bg-transparent hover:bg-foreground hover:text-background hover-3d cursor-hover"
+              className="px-8 py-4 rounded-full font-medium transition-all duration-300 border-2 border-foreground text-foreground bg-transparent hover:bg-foreground hover:text-background hover-3d"
             >
               View My Work
             </a>

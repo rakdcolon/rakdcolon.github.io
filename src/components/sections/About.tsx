@@ -1,13 +1,6 @@
-'use client'
-
-import { useElementInView } from '../../hooks/useScrollAnimation'
-
 export function About() {
-  const isInView = useElementInView('about-section', 0.2)
-
   return (
-    <section id="about" className="py-20 relative">
-      <div id="about-section" className="absolute top-0"></div>
+    <section id="about" className="py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">
@@ -56,14 +49,13 @@ export function About() {
               <h3 className="text-2xl font-semibold text-foreground mb-6">Technical Skills</h3>
 
               <div className="space-y-6">
-                <div className={`transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '200ms' }}>
+                <div>
                   <h4 className="text-lg font-medium text-foreground mb-3">Languages</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['Python', 'C++', 'Java', 'C', 'MATLAB'].map((skill, index) => (
+                    {['Python', 'C++', 'Java', 'C', 'MATLAB'].map((skill) => (
                       <span
                         key={skill}
-                        className={`px-3 py-1 bg-border text-foreground rounded-full text-sm font-medium hover-3d cursor-hover transition-all duration-300 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
-                        style={{ transitionDelay: `${400 + index * 100}ms` }}
+                        className="px-3 py-1 bg-border text-foreground rounded-full text-sm font-medium"
                       >
                         {skill}
                       </span>
@@ -71,14 +63,13 @@ export function About() {
                   </div>
                 </div>
 
-                <div className={`transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '600ms' }}>
+                <div>
                   <h4 className="text-lg font-medium text-foreground mb-3">Frameworks & Libraries</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['PyTorch', 'TensorFlow', 'NumPy', 'Pandas', 'OpenCV', 'Metal'].map((skill, index) => (
+                    {['PyTorch', 'TensorFlow', 'NumPy', 'Pandas', 'OpenCV', 'Metal'].map((skill) => (
                       <span
                         key={skill}
-                        className={`px-3 py-1 bg-border text-foreground rounded-full text-sm font-medium hover-3d cursor-hover transition-all duration-300 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
-                        style={{ transitionDelay: `${800 + index * 100}ms` }}
+                        className="px-3 py-1 bg-border text-foreground rounded-full text-sm font-medium"
                       >
                         {skill}
                       </span>
@@ -86,14 +77,13 @@ export function About() {
                   </div>
                 </div>
 
-                <div className={`transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '1000ms' }}>
+                <div>
                   <h4 className="text-lg font-medium text-foreground mb-3">Specializations</h4>
                   <div className="flex flex-wrap gap-2">
-                    {['Deep Learning', 'Neural Networks', 'GPU Programming', 'Machine Learning', 'Artificial Intelligence', 'Computer Vision'].map((skill, index) => (
+                    {['Deep Learning', 'Neural Networks', 'GPU Programming', 'Machine Learning', 'Artificial Intelligence', 'Computer Vision'].map((skill) => (
                       <span
                         key={skill}
-                        className={`px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium border border-accent/20 hover-3d cursor-hover transition-all duration-300 animate-pulse-glow ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
-                        style={{ transitionDelay: `${1200 + index * 100}ms` }}
+                        className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium border border-accent/20"
                       >
                         {skill}
                       </span>

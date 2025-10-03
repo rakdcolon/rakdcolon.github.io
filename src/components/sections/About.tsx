@@ -1,4 +1,3 @@
-import { StaggerContainer } from '../ui/StaggerContainer'
 import { useElementInView } from '../../hooks/useScrollAnimation'
 
 export function About() {

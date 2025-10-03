@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://rakdcolon.github.io",
     title: "Rohan Karamel | ML Researcher | Math + CS Student",
-    icon: "favicon.ico",
     description: "Portfolio showcasing machine learning research, machine learning projects, and software engineering work.",
     siteName: "Rohan Karamel Portfolio",
   },

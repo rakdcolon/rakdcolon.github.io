@@ -1,6 +1,7 @@
 'use client'
 
 import { Mail, Github, Linkedin, MapPin, Phone } from 'lucide-react'
+import { Interactive3D } from '../ui/Interactive3D'
 
 export function Contact() {
   const contactMethods = [
@@ -89,28 +90,30 @@ export function Contact() {
               </h3>
               <div className="space-y-4">
                 {socialLinks.map((link, index) => (
-                  <a
-                    key={index}
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center space-x-4 p-4 glass-enhanced rounded-xl hover:shadow-elegant transition-all duration-300 group hover-3d "
-                  >
-                    <div className="p-2 bg-accent/10 rounded-lg text-accent transition-all duration-300">
-                      {link.icon}
-                    </div>
-                    <div>
-                      <p className="text-foreground font-medium">{link.label}</p>
-                      <p className="text-secondary text-sm">{link.username}</p>
-                    </div>
-                  </a>
+                  <Interactive3D key={index} intensity={6}>
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-4 p-4 glass-enhanced rounded-xl hover:shadow-elegant transition-all duration-300 group"
+                    >
+                      <div className="p-2 bg-accent/10 rounded-lg text-accent transition-all duration-300">
+                        {link.icon}
+                      </div>
+                      <div>
+                        <p className="text-foreground font-medium">{link.label}</p>
+                        <p className="text-secondary text-sm">{link.username}</p>
+                      </div>
+                    </a>
+                  </Interactive3D>
                 ))}
               </div>
             </div>
           </div>
 
           {/* Call to Action */}
-          <div className="glass-enhanced rounded-2xl p-8 shadow-elegant hover-3d">
+          <Interactive3D intensity={6}>
+            <div className="glass-enhanced rounded-2xl p-8 shadow-elegant">
             <h3 className="text-2xl font-semibold text-foreground mb-6">
               Let&apos;s Work Together
             </h3>
@@ -145,7 +148,8 @@ export function Contact() {
                 Send Me an Email
               </a>
             </div>
-          </div>
+            </div>
+          </Interactive3D>
         </div>
 
         {/* Footer */}

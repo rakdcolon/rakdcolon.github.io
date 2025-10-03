@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react'
 import { TypewriterEffect } from '../ui/TypewriterEffect'
+import { Interactive3D } from '../ui/Interactive3D'
 
 export function Hero() {
   const [isVisible, setIsVisible] = useState(false)
@@ -98,27 +99,31 @@ export function Hero() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a
-              href="#about"
-              className="px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover-3d"
-              style={{backgroundColor: '#007aff', color: '#ffffff'}}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#0056cc';
-                e.currentTarget.style.color = '#ffffff';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = '#007aff';
-                e.currentTarget.style.color = '#ffffff';
-              }}
-            >
-              Learn More About Me
-            </a>
-            <a
-              href="#projects"
-              className="px-8 py-4 rounded-full font-medium transition-all duration-300 border-2 border-foreground text-foreground bg-transparent hover:bg-foreground hover:text-background hover-3d"
-            >
-              View My Work
-            </a>
+            <Interactive3D intensity={12}>
+              <a
+                href="#about"
+                className="px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant"
+                style={{backgroundColor: '#007aff', color: '#ffffff'}}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = '#0056cc';
+                  e.currentTarget.style.color = '#ffffff';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = '#007aff';
+                  e.currentTarget.style.color = '#ffffff';
+                }}
+              >
+                Learn More About Me
+              </a>
+            </Interactive3D>
+            <Interactive3D intensity={12}>
+              <a
+                href="#projects"
+                className="px-8 py-4 rounded-full font-medium transition-all duration-300 border-2 border-foreground text-foreground bg-transparent hover:bg-foreground hover:text-background"
+              >
+                View My Work
+              </a>
+            </Interactive3D>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 'use client'
 
 import { Github, Cpu, Brain, Terminal, Cloud } from 'lucide-react'
+import { Interactive3D } from '../ui/Interactive3D'
 
 export function Projects() {
   const projects = [
@@ -69,10 +70,9 @@ export function Projects() {
 
         <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              className="glass rounded-2xl p-8 shadow-elegant hover:shadow-lg transition-all duration-300 group"
-            >
+            <Interactive3D key={index} intensity={8}>
+              <div className="glass rounded-2xl p-8 shadow-elegant hover:shadow-lg transition-all duration-300 group">
+
               <div className="flex items-start justify-between mb-6">
                 <div className="flex items-center space-x-4">
                   <div
@@ -92,7 +92,7 @@ export function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 bg-foreground text-white rounded-full hover:bg-accent hover:text-white transition-all duration-300 hover:scale-110"
+                    className="p-2 bg-foreground text-background rounded-full hover:bg-accent hover:text-white transition-all duration-300 hover:scale-110"
                   >
                     <Github className="h-5 w-5" />
                   </a>
@@ -128,7 +128,8 @@ export function Projects() {
                   ))}
                 </div>
               </div>
-            </div>
+              </div>
+            </Interactive3D>
           ))}
         </div>
 

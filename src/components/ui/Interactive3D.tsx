@@ -10,7 +10,7 @@ interface Interactive3DProps {
 
 export function Interactive3D({ children, className = '', intensity = 10 }: Interactive3DProps) {
   const cardRef = useRef<HTMLDivElement>(null)
-  const animationRef = useRef<number | undefined>()
+  const animationRef = useRef<number | undefined>(undefined)
 
   const handleMouseMove = useCallback((e: MouseEvent<HTMLDivElement>) => {
     if (!cardRef.current) return

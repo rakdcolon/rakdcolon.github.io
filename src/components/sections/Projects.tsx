@@ -70,7 +70,7 @@ export function Projects() {
 
         <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
           {projects.map((project, index) => (
-            <Interactive3D key={index} intensity={8}>
+            <Interactive3D key={index} intensity={5}>
               <div className="glass rounded-2xl p-8 shadow-elegant hover:shadow-lg transition-all duration-300 group">
 
               <div className="flex items-start justify-between mb-6">
@@ -134,24 +134,26 @@ export function Projects() {
         </div>
 
         <div className="text-center mt-12">
-          <a
-            href="https://github.com/rakdcolon"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover:scale-105"
-            style={{backgroundColor: '#007aff', color: '#ffffff'}}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = '#0056cc';
-              e.currentTarget.style.color = '#ffffff';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = '#007aff';
-              e.currentTarget.style.color = '#ffffff';
-            }}
-          >
-            <Github className="h-5 w-5 mr-2" />
-            View More on GitHub
-          </a>
+          <Interactive3D intensity={5}>
+            <a
+              href="https://github.com/rakdcolon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-elegant hover:scale-105"
+              style={{backgroundColor: '#007aff', color: '#ffffff'}}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#0056cc';
+                e.currentTarget.style.color = '#ffffff';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = '#007aff';
+                e.currentTarget.style.color = '#ffffff';
+              }}
+            >
+              <Github className="h-5 w-5 mr-2" />
+              View More on GitHub
+            </a>
+          </Interactive3D>
         </div>
       </div>
     </section>

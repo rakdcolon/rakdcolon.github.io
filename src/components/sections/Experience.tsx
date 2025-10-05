@@ -1,4 +1,5 @@
 import { Calendar, MapPin, Building2 } from 'lucide-react'
+import { Interactive3D } from '../ui/Interactive3D'
 
 export function Experience() {
   const experiences = [
@@ -55,10 +56,8 @@ export function Experience() {
 
         <div className="space-y-12">
           {experiences.map((exp, index) => (
-            <div
-              key={index}
-              className="glass rounded-2xl p-8 shadow-elegant hover:shadow-lg transition-all duration-300"
-            >
+            <Interactive3D key={index} intensity={5}>
+              <div className="glass rounded-2xl p-8 shadow-elegant hover:shadow-lg transition-all duration-300">
               <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-foreground mb-2">
@@ -105,7 +104,8 @@ export function Experience() {
                   ))}
                 </div>
               </div>
-            </div>
+              </div>
+            </Interactive3D>
           ))}
         </div>
       </div>
